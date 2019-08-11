@@ -10,7 +10,7 @@ module.exports = {
 
         if(!targetDev) return res.status(400).json({error: ' Dev not exists '})
 
-        if(targetDev.likes.includes(loggedDev._id)) return console.log('deu math!!')
+        if(targetDev.likes.includes(loggedDev._id)) return console.log('Deu math!!')
 
         loggedDev.likes.push(targetDev._id)
 

@@ -32,6 +32,5 @@ export default function Login({ history }) {
                 <button type="submit">Enviar</button>
             </form>
         </div>
-
     )
 }
