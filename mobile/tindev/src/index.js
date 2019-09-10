@@ -1,16 +1,14 @@
-import React, {Fragment} from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { YellowBox } from 'react-native';
 
-import Routes from './routes'
+YellowBox.ignoreWarnings([
+  'Unrecognized WebSocket'
+]);
 
+import Routes from './routes';
 
 export default function App() {
   return (
-    <Routes/>
-  )
+    <Routes />
+  );
 }
-
-const styles = StyleSheet.create({
-  
-})
-
